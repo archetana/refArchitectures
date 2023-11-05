@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
 
 subgraph clientLayer[Client Layer]
@@ -32,6 +33,7 @@ subgraph monitoringLayer[Monitoring and Analytics Layer]
     M[Real-time Monitoring]:::internalContainer
     N[Data Analytics]:::internalContainer
 end
+```
 
 subgraph securityLayer[Security Layer]
     classDef internalContainer fill:#1168bd
